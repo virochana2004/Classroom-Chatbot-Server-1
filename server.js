@@ -529,77 +529,86 @@ let chatId;
 
   const ClassSchedule = {
     CS1: {
-      // Cloud Computing Techniques
-      name: "Cloud Computing Techniques",
+      // Introduction to Artificial Neural Networks
+      name: "Introduction to Artificial Neural Networks",
       schedule: [
-        { day: 2, start: "12:00", end: "12:55" }, // Tuesday
-        { day: 3, start: "12:00", end: "12:55" }, // Wednesday
-        { day: 6, start: "09:00", end: "09:55" }, // Saturday
+        { day: 2, start: "09:00", end: "10:50" }, // Tuesday
+        { day: 5, start: "13:40", end: "15:35" }, // Friday
+        { day: 6, start: "11:05", end: "12:00" }, // Saturday
       ],
     },
     CS2: {
-      // Advanced DBMS & NOSQL Databases
-      name: "Advanced DBMS & NOSQL Databases",
+      // Operating Systems
+      name: "Operating Systems",
       schedule: [
-        { day: 3, start: "09:00", end: "09:55" }, // Monday
-        { day: 4, start: "09:55", end: "10:50" }, // Monday
-        { day: 6, start: "09:55", end: "10:50" }, // Saturday
+        { day: 1, start: "09:00", end: "09:55" }, // Monday
+        { day: 1, start: "13:40", end: "14:35" }, // Monday
+        { day: 3, start: "09:00", end: "09:55" }, // Wednesday
+        { day: 6, start: "12:00", end: "12:55" }, // Saturday
       ],
     },
     CS3: {
       // Computer Networks
-      name: "Natural Language Processing",
+      name: "Computer Networks",
       schedule: [
-        { day: 2, start: "09:00", end: "10:50" }, // Monday
-        { day: 3, start: "11:05", end: "12:00" }, // Thursday
-        { day: 5, start: "11:05", end: "12:00" }, // Friday
+        { day: 1, start: "09:55", end: "10:50" }, // Monday
+        { day: 4, start: "11:05", end: "12:55" }, // Thursday
+        { day: 5, start: "09:00", end: "09:55" }, // Friday
       ],
     },
     CS4: {
-      // Social and Web Analytics
-      name: "Social and Web Analytics",
+      // Design and Analysis of Algorithm
+      name: "Design and Analysis of Algorithm",
       schedule: [
-        { day: 4, start: "12:00", end: "12:55" }, // Monday
-        { day: 5, start: "09:00", end: "10:50" }, // Wednesday
-        { day: 6, start: "12:00", end: "12:55" }, // Thursday
+        { day: 1, start: "12:00", end: "12:55" }, // Monday
+        { day: 3, start: "11:05", end: "12:00" }, // Wednesday
+        { day: 4, start: "09:00", end: "10:50" }, // Thursday
       ],
     },
     CS5: {
-      // Distributed Computing Systems
-      name: "Distributed Computing Systems",
+      // Introduction to Data Science
+      name: "Introduction to Data Science",
       schedule: [
-        { day: 1, start: "09:00", end: "09:55" }, // Monday
-        { day: 4, start: "09:00", end: "09:55" }, // Friday
+        { day: 1, start: "11:05", end: "12:00" }, // Monday
+        { day: 5, start: "09:55", end: "10:50" }, // Friday
+        { day: 6, start: "09:00", end: "09:55" }, // Saturday
       ],
     },
     CS6: {
-      // Cloud Computing Lab
-      name: "Cloud Computing Lab",
+      // Operating Systems Lab
+      name: "Operating Systems Lab",
       schedule: [
-        { day: 3, start: "14:00", end: "16:30", batch: "Batch-2" }, // Wednesday
-        { day: 1, start: "11:30", end: "14:00", batch: "Batch-1" }, // Friday
+        { day: 3, start: "13:40", end: "15:35", batch: "Batch-2" }, // Wednesday
+        { day: 5, start: "11:05", end: "12:55", batch: "Batch-1" }, // Friday
       ],
     },
     CS7: {
-      // Advanced DBMS & NOSQL Databases Lab
-      name: "Advanced DBMS & NOSQL Databases Lab",
+      // Computer Networks Lab
+      name: "Computer Networks Lab",
       schedule: [
-        { day: 3, start: "14:00", end: "16:30", batch: "Batch-1" }, 
-        { day: 1, start: "11:30", end: "14:00", batch: "Batch-2" },
+        { day: 2, start: "11:05", end: "12:55", batch: "Batch-1" }, // Tuesday
+        { day: 4, start: "13:40", end: "15:35", batch: "Batch-2" }, // Thursday
       ],
     },
     CS8: {
+      // Design and Analysis of Algorithm Lab
+      name: "Design and Analysis of Algorithm Lab",
+      schedule: [
+        { day: 3, start: "13:40", end: "15:35", batch: "Batch-1" }, // Wednesday
+        { day: 5, start: "11:05", end: "12:55", batch: "Batch-2" }, // Friday
+      ],
+    },
+    CS9: {
       // Free Hour/Mentor Hour
       name: "Free Hour/Mentor Hour/Library Hour",
       schedule: [
-        { day: 1, start: "09:55", end: "10:50" }, // Wednesday
-        { day: 2, start: "11:05", end: "12:00" }, // Wednesday
         { day: 3, start: "09:55", end: "10:50" }, // Wednesday
-        { day: 4, start: "11:05", end: "12:00" }, // Wednesday
-        { day: 6, start: "11:05", end: "12:00" }, // Wednesday
+        { day: 3, start: "12:00", end: "12:55" }, // Wednesday
+        { day: 6, start: "09:55", end: "10:50" }, // Saturday
       ],
     },
   };
+
 
   const examDates = {
     E1: new Date("2024-11-22T14:00:00"), // Example date and time for Exam ED1
