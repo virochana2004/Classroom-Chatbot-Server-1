@@ -529,82 +529,74 @@ let chatId;
 
   const ClassSchedule = {
     CS1: {
-      // Introduction to Artificial Neural Networks
-      name: "Introduction to Artificial Neural Networks",
+      // Cloud Computing Techniques
+      name: "Cloud Computing Techniques",
       schedule: [
-        { day: 2, start: "09:00", end: "10:50" }, // Tuesday
-        { day: 5, start: "13:40", end: "15:35" }, // Friday
-        { day: 6, start: "11:05", end: "12:00" }, // Saturday
+        { day: 2, start: "12:00", end: "12:55" }, // Tuesday
+        { day: 3, start: "12:00", end: "12:55" }, // Wednesday
+        { day: 6, start: "09:00", end: "09:55" }, // Saturday
       ],
     },
     CS2: {
-      // Operating Systems
-      name: "Operating Systems",
+      // Advanced DBMS & NOSQL Databases
+      name: "Advanced DBMS & NOSQL Databases",
       schedule: [
-        { day: 1, start: "09:00", end: "09:55" }, // Monday
-        { day: 1, start: "13:40", end: "14:35" }, // Monday
-        { day: 3, start: "09:00", end: "09:55" }, // Wednesday
-        { day: 6, start: "12:00", end: "12:55" }, // Saturday
+        { day: 3, start: "09:00", end: "09:55" }, // Monday
+        { day: 4, start: "09:55", end: "10:50" }, // Monday
+        { day: 6, start: "09:55", end: "10:50" }, // Saturday
       ],
     },
     CS3: {
       // Computer Networks
-      name: "Computer Networks",
+      name: "Natural Language Processing",
       schedule: [
-        { day: 1, start: "09:55", end: "10:50" }, // Monday
-        { day: 4, start: "11:05", end: "12:55" }, // Thursday
-        { day: 5, start: "09:00", end: "09:55" }, // Friday
+        { day: 2, start: "09:00", end: "10:50" }, // Monday
+        { day: 3, start: "11:05", end: "12:00" }, // Thursday
+        { day: 5, start: "11:05", end: "12:00" }, // Friday
       ],
     },
     CS4: {
-      // Design and Analysis of Algorithm
-      name: "Design and Analysis of Algorithm",
+      // Social and Web Analytics
+      name: "Social and Web Analytics",
       schedule: [
-        { day: 1, start: "12:00", end: "12:55" }, // Monday
-        { day: 3, start: "11:05", end: "12:00" }, // Wednesday
-        { day: 4, start: "09:00", end: "10:50" }, // Thursday
+        { day: 4, start: "12:00", end: "12:55" }, // Monday
+        { day: 5, start: "09:00", end: "10:50" }, // Wednesday
+        { day: 6, start: "12:00", end: "12:55" }, // Thursday
       ],
     },
     CS5: {
-      // Introduction to Data Science
-      name: "Introduction to Data Science",
+      // Distributed Computing Systems
+      name: "Distributed Computing Systems",
       schedule: [
-        { day: 1, start: "11:05", end: "12:00" }, // Monday
-        { day: 5, start: "09:55", end: "10:50" }, // Friday
-        { day: 6, start: "09:00", end: "09:55" }, // Saturday
+        { day: 1, start: "09:00", end: "09:55" }, // Monday
+        { day: 4, start: "09:00", end: "09:55" }, // Friday
       ],
     },
     CS6: {
-      // Operating Systems Lab
-      name: "Operating Systems Lab",
+      // Cloud Computing Lab
+      name: "Cloud Computing Lab",
       schedule: [
-        { day: 3, start: "13:40", end: "15:35", batch: "Batch-2" }, // Wednesday
-        { day: 5, start: "11:05", end: "12:55", batch: "Batch-1" }, // Friday
+        { day: 3, start: "14:00", end: "16:30", batch: "Batch-2" }, // Wednesday
+        { day: 1, start: "11:30", end: "14:00", batch: "Batch-1" }, // Friday
       ],
     },
     CS7: {
-      // Computer Networks Lab
-      name: "Computer Networks Lab",
+      // Advanced DBMS & NOSQL Databases Lab
+      name: "Advanced DBMS & NOSQL Databases Lab",
       schedule: [
-        { day: 2, start: "11:05", end: "12:55", batch: "Batch-1" }, // Tuesday
-        { day: 4, start: "13:40", end: "15:35", batch: "Batch-2" }, // Thursday
+        { day: 3, start: "14:00", end: "16:30", batch: "Batch-1" }, 
+        { day: 1, start: "11:30", end: "14:00", batch: "Batch-2" },
       ],
     },
     CS8: {
-      // Design and Analysis of Algorithm Lab
-      name: "Design and Analysis of Algorithm Lab",
-      schedule: [
-        { day: 3, start: "13:40", end: "15:35", batch: "Batch-1" }, // Wednesday
-        { day: 5, start: "11:05", end: "12:55", batch: "Batch-2" }, // Friday
-      ],
-    },
-    CS9: {
       // Free Hour/Mentor Hour
       name: "Free Hour/Mentor Hour/Library Hour",
       schedule: [
+        { day: 1, start: "09:55", end: "10:50" }, // Wednesday
+        { day: 2, start: "11:05", end: "12:00" }, // Wednesday
         { day: 3, start: "09:55", end: "10:50" }, // Wednesday
-        { day: 3, start: "12:00", end: "12:55" }, // Wednesday
-        { day: 6, start: "09:55", end: "10:50" }, // Saturday
+        { day: 4, start: "11:05", end: "12:00" }, // Wednesday
+        { day: 6, start: "11:05", end: "12:00" }, // Wednesday
       ],
     },
   };
